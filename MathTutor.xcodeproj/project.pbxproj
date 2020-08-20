@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A466FA24E67C3E00D214AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A466F924E67C3E00D214AC /* AppDelegate.swift */; };
+		06A466FC24E67C3E00D214AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A466FB24E67C3E00D214AC /* SceneDelegate.swift */; };
+		06A466FE24E67C3E00D214AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A466FD24E67C3E00D214AC /* ViewController.swift */; };
+		06A4670124E67C3E00D214AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A466FF24E67C3E00D214AC /* Main.storyboard */; };
+		06A4670424E67C3E00D214AC /* MathTutor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06A4670224E67C3E00D214AC /* MathTutor.xcdatamodeld */; };
+		06A4670624E67C3F00D214AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A4670524E67C3F00D214AC /* Assets.xcassets */; };
+		06A4670924E67C3F00D214AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A4670724E67C3F00D214AC /* LaunchScreen.storyboard */; };
+		06A4671424E67C3F00D214AC /* MathTutorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A4671324E67C3F00D214AC /* MathTutorTests.swift */; };
+		06A4671F24E67C3F00D214AC /* MathTutorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A4671E24E67C3F00D214AC /* MathTutorUITests.swift */; };
+		06AE30D024EC9ED0004C0938 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06AE308424EC9A36004C0938 /* GoogleService-Info.plist */; };
+		06AE30D324ECDABD004C0938 /* ClassroomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE30D224ECDABD004C0938 /* ClassroomController.swift */; };
+		06AE30D624ECDE65004C0938 /* ClassroomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06AE30D524ECDE65004C0938 /* ClassroomCell.xib */; };
+		06AE30D824ECDEA5004C0938 /* ClassroomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE30D724ECDEA5004C0938 /* ClassroomCell.swift */; };
+		06AE30E624ECFF8B004C0938 /* WorkbookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06AE30E524ECFF8B004C0938 /* WorkbookCell.xib */; };
+		06AE30E824ECFFDE004C0938 /* WorkbookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AE30E724ECFFDE004C0938 /* WorkbookCell.swift */; };
+		727F3395FBB837D09E087D03 /* Pods_MathTutorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F72F667EA4A6B97AD94234 /* Pods_MathTutorTests.framework */; };
+		D5D4DFDD87B96E9DDFEBCDB2 /* Pods_MathTutor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A611C20762E357223485281 /* Pods_MathTutor.framework */; };
+		E88AA7B156CEEF019EE821ED /* Pods_MathTutor_MathTutorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FF0329E5EFC4F439C4938D /* Pods_MathTutor_MathTutorUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06A4671024E67C3F00D214AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A466EE24E67C3E00D214AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06A466F524E67C3E00D214AC;
+			remoteInfo = MathTutor;
+		};
+		06A4671B24E67C3F00D214AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A466EE24E67C3E00D214AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06A466F524E67C3E00D214AC;
+			remoteInfo = MathTutor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06A4673224E67C6200D214AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06A466F624E67C3E00D214AC /* Workbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A466F924E67C3E00D214AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06A466FB24E67C3E00D214AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06A466FD24E67C3E00D214AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06A4670024E67C3E00D214AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06A4670324E67C3E00D214AC /* MathTutor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathTutor.xcdatamodel; sourceTree = "<group>"; };
+		06A4670524E67C3F00D214AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06A4670824E67C3F00D214AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06A4670A24E67C3F00D214AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A4670F24E67C3F00D214AC /* MathTutorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTutorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A4671324E67C3F00D214AC /* MathTutorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTutorTests.swift; sourceTree = "<group>"; };
+		06A4671524E67C3F00D214AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A4671A24E67C3F00D214AC /* MathTutorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathTutorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A4671E24E67C3F00D214AC /* MathTutorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathTutorUITests.swift; sourceTree = "<group>"; };
+		06A4672024E67C3F00D214AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06AE308424EC9A36004C0938 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06AE30A924EC9B01004C0938 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		06AE30D224ECDABD004C0938 /* ClassroomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomController.swift; sourceTree = "<group>"; };
+		06AE30D524ECDE65004C0938 /* ClassroomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassroomCell.xib; sourceTree = "<group>"; };
+		06AE30D724ECDEA5004C0938 /* ClassroomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomCell.swift; sourceTree = "<group>"; };
+		06AE30E524ECFF8B004C0938 /* WorkbookCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkbookCell.xib; sourceTree = "<group>"; };
+		06AE30E724ECFFDE004C0938 /* WorkbookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkbookCell.swift; sourceTree = "<group>"; };
+		12FC5EF5475B541147216068 /* Pods-MathTutor-MathTutorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTutor-MathTutorUITests.release.xcconfig"; path = "Target Support Files/Pods-MathTutor-MathTutorUITests/Pods-MathTutor-MathTutorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		438A6151FAF401CF43A79B8A /* Pods-MathTutor-MathTutorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTutor-MathTutorUITests.debug.xcconfig"; path = "Target Support Files/Pods-MathTutor-MathTutorUITests/Pods-MathTutor-MathTutorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4ACD5620E57C7A92788EBABF /* Pods-MathTutor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTutor.release.xcconfig"; path = "Target Support Files/Pods-MathTutor/Pods-MathTutor.release.xcconfig"; sourceTree = "<group>"; };
+		6007D15097193729EE143038 /* Pods-MathTutorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTutorTests.debug.xcconfig"; path = "Target Support Files/Pods-MathTutorTests/Pods-MathTutorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		645AEBE33FF5112ABD761E94 /* Pods-MathTutorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTutorTests.release.xcconfig"; path = "Target Support Files/Pods-MathTutorTests/Pods-MathTutorTests.release.xcconfig"; sourceTree = "<group>"; };
+		65FF0329E5EFC4F439C4938D /* Pods_MathTutor_MathTutorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathTutor_MathTutorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A611C20762E357223485281 /* Pods_MathTutor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathTutor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5B71B07F8C68C9C4CD43A3 /* Pods-MathTutor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathTutor.debug.xcconfig"; path = "Target Support Files/Pods-MathTutor/Pods-MathTutor.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F72F667EA4A6B97AD94234 /* Pods_MathTutorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathTutorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06A466F324E67C3E00D214AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D4DFDD87B96E9DDFEBCDB2 /* Pods_MathTutor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A4670C24E67C3F00D214AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727F3395FBB837D09E087D03 /* Pods_MathTutorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A4671724E67C3F00D214AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88AA7B156CEEF019EE821ED /* Pods_MathTutor_MathTutorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A466ED24E67C3E00D214AC = {
+			isa = PBXGroup;
+			children = (
+				06A466F824E67C3E00D214AC /* MathTutor */,
+				06A4671224E67C3F00D214AC /* MathTutorTests */,
+				06A4671D24E67C3F00D214AC /* MathTutorUITests */,
+				06A466F724E67C3E00D214AC /* Products */,
+				E8AB4AE3BC3BFF1177D7642F /* Pods */,
+				691935C05B2C08D2AC105AA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06A466F724E67C3E00D214AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06A466F624E67C3E00D214AC /* Workbook.app */,
+				06A4670F24E67C3F00D214AC /* MathTutorTests.xctest */,
+				06A4671A24E67C3F00D214AC /* MathTutorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06A466F824E67C3E00D214AC /* MathTutor */ = {
+			isa = PBXGroup;
+			children = (
+				06AE30D424ECDE57004C0938 /* Cells */,
+				06AE30D124ECC1C4004C0938 /* Controllers */,
+				06AE308324EBC76E004C0938 /* General */,
+				06A4670524E67C3F00D214AC /* Assets.xcassets */,
+				06A4670A24E67C3F00D214AC /* Info.plist */,
+				06A4670224E67C3E00D214AC /* MathTutor.xcdatamodeld */,
+				06AE30A924EC9B01004C0938 /* Bridge.h */,
+			);
+			path = MathTutor;
+			sourceTree = "<group>";
+		};
+		06A4671224E67C3F00D214AC /* MathTutorTests */ = {
+			isa = PBXGroup;
+			children = (
+				06A4671324E67C3F00D214AC /* MathTutorTests.swift */,
+				06A4671524E67C3F00D214AC /* Info.plist */,
+			);
+			path = MathTutorTests;
+			sourceTree = "<group>";
+		};
+		06A4671D24E67C3F00D214AC /* MathTutorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06A4671E24E67C3F00D214AC /* MathTutorUITests.swift */,
+				06A4672024E67C3F00D214AC /* Info.plist */,
+			);
+			path = MathTutorUITests;
+			sourceTree = "<group>";
+		};
+		06AE308324EBC76E004C0938 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				06A466F924E67C3E00D214AC /* AppDelegate.swift */,
+				06A466FB24E67C3E00D214AC /* SceneDelegate.swift */,
+				06A466FF24E67C3E00D214AC /* Main.storyboard */,
+				06A4670724E67C3F00D214AC /* LaunchScreen.storyboard */,
+				06AE308424EC9A36004C0938 /* GoogleService-Info.plist */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		06AE30D124ECC1C4004C0938 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				06AE30D224ECDABD004C0938 /* ClassroomController.swift */,
+				06A466FD24E67C3E00D214AC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		06AE30D424ECDE57004C0938 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				06AE30D524ECDE65004C0938 /* ClassroomCell.xib */,
+				06AE30D724ECDEA5004C0938 /* ClassroomCell.swift */,
+				06AE30E524ECFF8B004C0938 /* WorkbookCell.xib */,
+				06AE30E724ECFFDE004C0938 /* WorkbookCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		691935C05B2C08D2AC105AA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A611C20762E357223485281 /* Pods_MathTutor.framework */,
+				65FF0329E5EFC4F439C4938D /* Pods_MathTutor_MathTutorUITests.framework */,
+				B8F72F667EA4A6B97AD94234 /* Pods_MathTutorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8AB4AE3BC3BFF1177D7642F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB5B71B07F8C68C9C4CD43A3 /* Pods-MathTutor.debug.xcconfig */,
+				4ACD5620E57C7A92788EBABF /* Pods-MathTutor.release.xcconfig */,
+				438A6151FAF401CF43A79B8A /* Pods-MathTutor-MathTutorUITests.debug.xcconfig */,
+				12FC5EF5475B541147216068 /* Pods-MathTutor-MathTutorUITests.release.xcconfig */,
+				6007D15097193729EE143038 /* Pods-MathTutorTests.debug.xcconfig */,
+				645AEBE33FF5112ABD761E94 /* Pods-MathTutorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06A466F524E67C3E00D214AC /* MathTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A4672324E67C3F00D214AC /* Build configuration list for PBXNativeTarget "MathTutor" */;
+			buildPhases = (
+				11912E608E1F1047A3642C80 /* [CP] Check Pods Manifest.lock */,
+				06A466F224E67C3E00D214AC /* Sources */,
+				06A466F324E67C3E00D214AC /* Frameworks */,
+				06A466F424E67C3E00D214AC /* Resources */,
+				06A4673224E67C6200D214AC /* Embed Frameworks */,
+				C6E49D0DD4EFE83B7B2E01BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathTutor;
+			productName = MathTutor;
+			productReference = 06A466F624E67C3E00D214AC /* Workbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06A4670E24E67C3F00D214AC /* MathTutorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A4672624E67C3F00D214AC /* Build configuration list for PBXNativeTarget "MathTutorTests" */;
+			buildPhases = (
+				4A85FEE101A12B5E02A7A82C /* [CP] Check Pods Manifest.lock */,
+				06A4670B24E67C3F00D214AC /* Sources */,
+				06A4670C24E67C3F00D214AC /* Frameworks */,
+				06A4670D24E67C3F00D214AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06A4671124E67C3F00D214AC /* PBXTargetDependency */,
+			);
+			name = MathTutorTests;
+			productName = MathTutorTests;
+			productReference = 06A4670F24E67C3F00D214AC /* MathTutorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06A4671924E67C3F00D214AC /* MathTutorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A4672924E67C3F00D214AC /* Build configuration list for PBXNativeTarget "MathTutorUITests" */;
+			buildPhases = (
+				685640FD8ED2480A3402D8D9 /* [CP] Check Pods Manifest.lock */,
+				06A4671624E67C3F00D214AC /* Sources */,
+				06A4671724E67C3F00D214AC /* Frameworks */,
+				06A4671824E67C3F00D214AC /* Resources */,
+				89BEAB8412354AA7A5D698B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06A4671C24E67C3F00D214AC /* PBXTargetDependency */,
+			);
+			name = MathTutorUITests;
+			productName = MathTutorUITests;
+			productReference = 06A4671A24E67C3F00D214AC /* MathTutorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06A466EE24E67C3E00D214AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "AJ Rahim";
+				TargetAttributes = {
+					06A466F524E67C3E00D214AC = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					06A4670E24E67C3F00D214AC = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 06A466F524E67C3E00D214AC;
+					};
+					06A4671924E67C3F00D214AC = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 06A466F524E67C3E00D214AC;
+					};
+				};
+			};
+			buildConfigurationList = 06A466F124E67C3E00D214AC /* Build configuration list for PBXProject "MathTutor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06A466ED24E67C3E00D214AC;
+			productRefGroup = 06A466F724E67C3E00D214AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06A466F524E67C3E00D214AC /* MathTutor */,
+				06A4670E24E67C3F00D214AC /* MathTutorTests */,
+				06A4671924E67C3F00D214AC /* MathTutorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06A466F424E67C3E00D214AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AE30D024EC9ED0004C0938 /* GoogleService-Info.plist in Resources */,
+				06A4670924E67C3F00D214AC /* LaunchScreen.storyboard in Resources */,
+				06A4670624E67C3F00D214AC /* Assets.xcassets in Resources */,
+				06AE30E624ECFF8B004C0938 /* WorkbookCell.xib in Resources */,
+				06AE30D624ECDE65004C0938 /* ClassroomCell.xib in Resources */,
+				06A4670124E67C3E00D214AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A4670D24E67C3F00D214AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A4671824E67C3F00D214AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11912E608E1F1047A3642C80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathTutor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A85FEE101A12B5E02A7A82C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathTutorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		685640FD8ED2480A3402D8D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathTutor-MathTutorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89BEAB8412354AA7A5D698B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathTutor-MathTutorUITests/Pods-MathTutor-MathTutorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathTutor-MathTutorUITests/Pods-MathTutor-MathTutorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathTutor-MathTutorUITests/Pods-MathTutor-MathTutorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E49D0DD4EFE83B7B2E01BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathTutor/Pods-MathTutor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MathTutor/Pods-MathTutor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MathTutor/Pods-MathTutor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A466F224E67C3E00D214AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A466FE24E67C3E00D214AC /* ViewController.swift in Sources */,
+				06AE30E824ECFFDE004C0938 /* WorkbookCell.swift in Sources */,
+				06A466FA24E67C3E00D214AC /* AppDelegate.swift in Sources */,
+				06A4670424E67C3E00D214AC /* MathTutor.xcdatamodeld in Sources */,
+				06A466FC24E67C3E00D214AC /* SceneDelegate.swift in Sources */,
+				06AE30D324ECDABD004C0938 /* ClassroomController.swift in Sources */,
+				06AE30D824ECDEA5004C0938 /* ClassroomCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A4670B24E67C3F00D214AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A4671424E67C3F00D214AC /* MathTutorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A4671624E67C3F00D214AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A4671F24E67C3F00D214AC /* MathTutorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06A4671124E67C3F00D214AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06A466F524E67C3E00D214AC /* MathTutor */;
+			targetProxy = 06A4671024E67C3F00D214AC /* PBXContainerItemProxy */;
+		};
+		06A4671C24E67C3F00D214AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06A466F524E67C3E00D214AC /* MathTutor */;
+			targetProxy = 06A4671B24E67C3F00D214AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06A466FF24E67C3E00D214AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06A4670024E67C3E00D214AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06A4670724E67C3F00D214AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06A4670824E67C3F00D214AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06A4672124E67C3F00D214AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06A4672224E67C3F00D214AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06A4672424E67C3F00D214AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5B71B07F8C68C9C4CD43A3 /* Pods-MathTutor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLN337T968;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MathTutor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajrahim.Workbook;
+				PRODUCT_NAME = Workbook;
+				SWIFT_OBJC_BRIDGING_HEADER = MathTutor/Bridge.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06A4672524E67C3F00D214AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACD5620E57C7A92788EBABF /* Pods-MathTutor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLN337T968;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MathTutor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajrahim.Workbook;
+				PRODUCT_NAME = Workbook;
+				SWIFT_OBJC_BRIDGING_HEADER = MathTutor/Bridge.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06A4672724E67C3F00D214AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6007D15097193729EE143038 /* Pods-MathTutorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLN337T968;
+				INFOPLIST_FILE = MathTutorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajrahim.MathTutorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTutor.app/MathTutor";
+			};
+			name = Debug;
+		};
+		06A4672824E67C3F00D214AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 645AEBE33FF5112ABD761E94 /* Pods-MathTutorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLN337T968;
+				INFOPLIST_FILE = MathTutorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajrahim.MathTutorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathTutor.app/MathTutor";
+			};
+			name = Release;
+		};
+		06A4672A24E67C3F00D214AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438A6151FAF401CF43A79B8A /* Pods-MathTutor-MathTutorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLN337T968;
+				INFOPLIST_FILE = MathTutorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajrahim.MathTutorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MathTutor;
+			};
+			name = Debug;
+		};
+		06A4672B24E67C3F00D214AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FC5EF5475B541147216068 /* Pods-MathTutor-MathTutorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JLN337T968;
+				INFOPLIST_FILE = MathTutorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajrahim.MathTutorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MathTutor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06A466F124E67C3E00D214AC /* Build configuration list for PBXProject "MathTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A4672124E67C3F00D214AC /* Debug */,
+				06A4672224E67C3F00D214AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06A4672324E67C3F00D214AC /* Build configuration list for PBXNativeTarget "MathTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A4672424E67C3F00D214AC /* Debug */,
+				06A4672524E67C3F00D214AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06A4672624E67C3F00D214AC /* Build configuration list for PBXNativeTarget "MathTutorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A4672724E67C3F00D214AC /* Debug */,
+				06A4672824E67C3F00D214AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06A4672924E67C3F00D214AC /* Build configuration list for PBXNativeTarget "MathTutorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A4672A24E67C3F00D214AC /* Debug */,
+				06A4672B24E67C3F00D214AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06A4670224E67C3E00D214AC /* MathTutor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06A4670324E67C3E00D214AC /* MathTutor.xcdatamodel */,
+			);
+			currentVersion = 06A4670324E67C3E00D214AC /* MathTutor.xcdatamodel */;
+			path = MathTutor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06A466EE24E67C3E00D214AC /* Project object */;
+}

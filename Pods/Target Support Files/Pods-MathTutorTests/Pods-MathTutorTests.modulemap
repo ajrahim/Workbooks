@@ -1,0 +1,6 @@
+framework module Pods_MathTutorTests {
+  umbrella header "Pods-MathTutorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

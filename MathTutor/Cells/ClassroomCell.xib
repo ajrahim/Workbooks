@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Zev-cI-GSU" customClass="ClassroomCell" customModule="Workbook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="243" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dWj-dh-bzC">
+                <rect key="frame" x="0.0" y="0.0" width="243" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jIF-l9-7I6">
+                        <rect key="frame" x="0.0" y="0.0" width="243" height="150"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workbook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKQ-zZ-3lE">
+                                <rect key="frame" x="20" y="20" width="203" height="13"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Classroom ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfs-my-3gF">
+                                <rect key="frame" x="20" y="38" width="200" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Czc-iy-jFk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSy-38-Kur">
+                                <rect key="frame" x="20" y="85" width="203" height="10"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LUu-r3-Ef6">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="10"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="Eej-y7-dov"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93769355292792789" green="0.93769355292792789" blue="0.93769355292792789" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="10" id="Ko7-rX-yRW"/>
+                                    <constraint firstAttribute="bottom" secondItem="LUu-r3-Ef6" secondAttribute="bottom" id="bY9-vG-5TX"/>
+                                    <constraint firstItem="LUu-r3-Ef6" firstAttribute="top" secondItem="FSy-38-Kur" secondAttribute="top" id="fO0-3g-fzu"/>
+                                    <constraint firstItem="LUu-r3-Ef6" firstAttribute="leading" secondItem="FSy-38-Kur" secondAttribute="leading" id="krY-Tk-Ki4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Progress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lU9-z9-ihE">
+                                <rect key="frame" x="20" y="105" width="203" height="13"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lU9-z9-ihE" firstAttribute="leading" secondItem="jIF-l9-7I6" secondAttribute="leading" constant="20" id="KPb-jA-XOJ"/>
+                            <constraint firstItem="FSy-38-Kur" firstAttribute="top" secondItem="vfs-my-3gF" secondAttribute="bottom" constant="30" id="O7b-hY-BrN"/>
+                            <constraint firstItem="vfs-my-3gF" firstAttribute="top" secondItem="GKQ-zZ-3lE" secondAttribute="bottom" constant="5" id="PO4-Fr-G0V"/>
+                            <constraint firstItem="lU9-z9-ihE" firstAttribute="top" secondItem="FSy-38-Kur" secondAttribute="bottom" constant="10" id="Qpm-cu-no0"/>
+                            <constraint firstItem="vfs-my-3gF" firstAttribute="leading" secondItem="jIF-l9-7I6" secondAttribute="leading" constant="20" id="ZOH-AI-Sgk"/>
+                            <constraint firstAttribute="trailing" secondItem="lU9-z9-ihE" secondAttribute="trailing" constant="20" id="eDc-D6-Mgk"/>
+                            <constraint firstAttribute="trailing" secondItem="FSy-38-Kur" secondAttribute="trailing" constant="20" id="fHN-sU-3KO"/>
+                            <constraint firstAttribute="trailing" secondItem="GKQ-zZ-3lE" secondAttribute="trailing" constant="20" id="fcv-gX-bBq"/>
+                            <constraint firstItem="GKQ-zZ-3lE" firstAttribute="top" secondItem="jIF-l9-7I6" secondAttribute="top" constant="20" id="rMS-5B-9px"/>
+                            <constraint firstItem="GKQ-zZ-3lE" firstAttribute="leading" secondItem="jIF-l9-7I6" secondAttribute="leading" constant="20" id="vHK-T9-kR6"/>
+                            <constraint firstItem="FSy-38-Kur" firstAttribute="leading" secondItem="jIF-l9-7I6" secondAttribute="leading" constant="20" id="vzy-CU-5VH"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="14"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jIF-l9-7I6" firstAttribute="top" secondItem="dWj-dh-bzC" secondAttribute="top" id="64O-Ds-iyQ"/>
+                    <constraint firstAttribute="bottom" secondItem="jIF-l9-7I6" secondAttribute="bottom" id="C9X-5p-aCM"/>
+                    <constraint firstAttribute="trailing" secondItem="jIF-l9-7I6" secondAttribute="trailing" id="OM8-x1-Scp"/>
+                    <constraint firstItem="jIF-l9-7I6" firstAttribute="leading" secondItem="dWj-dh-bzC" secondAttribute="leading" id="jmF-ye-lfG"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="1351" height="1167"/>
+            <connections>
+                <outlet property="ClassroomID" destination="vfs-my-3gF" id="vBF-tM-a2g"/>
+                <outlet property="ConstraintProgress" destination="Eej-y7-dov" id="uaS-FS-5yp"/>
+                <outlet property="ProgressWrapper" destination="FSy-38-Kur" id="qF0-qd-cYT"/>
+            </connections>
+            <point key="canvasLocation" x="619.56521739130437" y="7.3660714285714279"/>
+        </collectionViewCell>
+    </objects>
+</document>
